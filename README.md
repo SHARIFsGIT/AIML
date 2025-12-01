@@ -24,6 +24,10 @@ This repository serves as a complete learning path for AI and Machine Learning, 
 - NumPy and Pandas for data manipulation
 - Data visualization with Matplotlib and Seaborn
 - Statistical analysis and descriptive statistics
+- **Data preprocessing and feature engineering**
+- **Machine learning pipeline construction**
+- **Real-world data handling strategies**
+- **Domain knowledge integration in ML**
 - Machine learning algorithms and concepts
 - Deep learning with TensorFlow and Keras
 
@@ -68,12 +72,24 @@ AIML/
 │       └── Mod 17.ipynb      # Final concepts
 │
 └── Machine Learning/          # ML algorithms and statistical analysis
-    └── Week 01/
-        ├── Extra Practice Problem Module 01.ipynb  # Statistical measures
-        └── Mod 2.5.ipynb     # Machine learning concepts
+    ├── Week 01/               # Statistical analysis fundamentals
+    │   ├── Extra Practice Problem Module 01.ipynb  # Statistical measures
+    │   └── Mod 2.5.ipynb     # Machine learning concepts
+    │
+    ├── Week 02/               # Descriptive statistics and visualization
+    │   ├── Mod 03.ipynb      # Range, variance, standard deviation
+    │   ├── Mod 04.ipynb      # Quartiles, percentiles, and IQR
+    │   ├── Mod 05.ipynb      # Data visualization with Matplotlib
+    │   ├── Mod 06.ipynb      # Advanced visualization techniques
+    │   └── Mod 07.ipynb      # Box plots and outlier analysis
+    │
+    └── Week 03/               # Data preprocessing and feature engineering
+        ├── Mod 08.ipynb      # Statistical measures calculations
+        ├── Mod 09.ipynb      # Comprehensive data preprocessing pipeline
+        └── README.md         # Module 09 detailed documentation
 ```
 
-**Total:** 30 Jupyter notebooks organized across multiple weeks
+**Total:** 34 Jupyter notebooks organized across multiple weeks
 
 ## Getting Started
 
@@ -164,11 +180,31 @@ Learn to visualize data effectively:
 
 #### Phase 5: Machine Learning (Ongoing)
 Apply your skills to machine learning:
+
+**Phase 5a: Statistical Foundations (Week 01)**
 - Statistical measures and analysis
 - Outlier detection
-- Machine learning algorithms
+- Machine learning concepts
 
 **Start with:** `Machine Learning/Week 01/Extra Practice Problem Module 01.ipynb`
+
+**Phase 5b: Descriptive Statistics & Visualization (Week 02)**
+- Range, variance, and standard deviation
+- Quartiles, percentiles, and IQR
+- Data visualization techniques
+- Box plots and outlier analysis
+
+**Start with:** `Machine Learning/Week 02/Mod 03.ipynb`
+
+**Phase 5c: Data Preprocessing & Feature Engineering (Week 03)**
+- Missing value handling strategies
+- Categorical variable encoding
+- Feature scaling and normalization
+- Outlier detection and handling
+- Feature engineering techniques
+- Building ML pipelines
+
+**Start with:** `Machine Learning/Week 03/Mod 08.ipynb`
 
 ## Course Content
 
@@ -207,6 +243,33 @@ Apply your skills to machine learning:
 - Quartiles and interquartile range (IQR)
 - Outlier detection methods
 - Data distribution analysis
+- Machine learning concepts and fundamentals
+
+#### Week 02: Descriptive Statistics & Visualization
+- **Range, Variance, and Standard Deviation**: Mathematical calculations and interpretations
+- **Quartiles, Percentiles, and IQR**: Position-based statistics and outlier detection
+- **Data Visualization with Matplotlib**: Creating charts and plots for statistical analysis
+- **Advanced Visualization Techniques**: Multiple subplot layouts and complex visualizations
+- **Box Plots and Outlier Analysis**: Visual identification of outliers and data distribution
+
+#### Week 03: Data Preprocessing & Feature Engineering
+- **Statistical Measures Calculations**: Practical implementation of descriptive statistics
+- **Comprehensive Data Preprocessing Pipeline**:
+  - Missing value handling (median, mode, column dropping)
+  - Categorical encoding (label encoding, one-hot encoding)
+  - Feature scaling (StandardScaler, MinMaxScaler)
+  - Outlier detection and handling (IQR method, removal, capping, log transformation)
+  - Feature engineering (polynomial features, binning, domain-driven features)
+  - ML pipeline construction with ColumnTransformer
+- **Real-world Datasets**: Titanic dataset and Heart Disease dataset
+- **Production-ready workflows**: Complete end-to-end preprocessing with detailed explanations
+
+**Key Features of Week 03:**
+- Beginner-friendly explanations with "why" behind each technique
+- Clinical context for medical datasets
+- Comparison of different approaches with pros/cons
+- Pipeline implementation to prevent data leakage
+- Comprehensive documentation for each preprocessing step
 
 ## Dependencies
 
@@ -263,6 +326,8 @@ The notebooks include practical exercises with real-world applications:
 - Traffic data analysis
 - Employee data filtering
 - Sales and business analytics
+- **Week 03 Special**: Real-world medical datasets (Titanic survival prediction, Heart disease classification)
+- **Week 03**: Clinical data preprocessing with domain knowledge application
 
 ## Contributing
 
